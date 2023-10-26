@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Center</title>
+    <link rel="stylesheet" href="helpC.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg d-flex">
+            <div class="navLeft">
+                <div class="ham">
+                    <button onclick="toggle()" class="togBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" focusable="false" width="24px" viewBox="0 0 24 24" c>
+                            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+                        </svg>
+                    </button>
+                </div>
+                <p>Google Help</p>
+            </div>
+            <div class="navRyt">
+                <div class="apps">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" focusable="false" viewBox="0 0 24 24">
+                        <path
+                            d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="g-user">V</div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="menuContainer">
+        <div class="menuHead">
+            <p class="fs-4 ">Google Help</p>
+            <div class="cross">
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24">
+                    <path
+                        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <div class="menuContent">
+            <div class="m1">
+                <p>Help Center</p>
+                <p>Google</p>
+            </div>
+
+            <div class="m1">
+                <p>Privacy Policy</p>
+                <p>Terms of Service</p>
+                <p>Submit feedback</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="text-end mt-3">
+        <a href="#" class="g-link">Google
+            <span>
+                <svg width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z">
+                    </path>
+                </svg>
+            </span></a>
+    </div>
+
+    <section>
+        <div class="searchContainer">
+
+            <div class="s-c-Content">
+                <div class="gLogo-container mb-3">
+                    <img src="googleLogo.png" alt="" class="gLogo">
+                </div>
+                <div class="text-primary fs-2 mb-4">How can we help you?</div>
+                <form class="searchF" role="search">
+                    <div class="searchBox">
+
+                        <div class="s-icon">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" class="promoted-search__search-icon"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M20.49 19l-5.73-5.73C15.53 12.2 16 10.91 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.41 0 2.7-.47 3.77-1.24L19 20.49 20.49 19zM5 9.5C5 7.01 7.01 5 9.5 5S14 7.01 14 9.5 11.99 14 9.5 14 5 11.99 5 9.5z">
+                                </path>
+                                <path d="M0 0h24v24H0V0z" fill="none"></path>
+                            </svg>
+                        </div>
+
+                        <input type="text" name="S-box" id="" class="sInputBox" placeholder="Describe Your issue ">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="width-Container">
+        <div class="appLinksContainer">
+            <div class="a">
+                <div class="portal">
+                    <img src="googleLogo.png" alt="" class="p-G-logo">
+                    <p> Read about Google's response to COVID-19</p>
+                </div>
+            </div>
+
+            <section>
+                <ul class="ul_cards">
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="chrome-logo.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Google Chrome</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="googleAccountsLogo.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Google Accounts</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="youtube_logo.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Youtube</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="gmaillogo.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Gmail</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="playStore.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Google play</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="googleLogo.png" class="cards-img " alt="">
+                            </span>
+                            <h3>Web search</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="adsense.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Google AdSense</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="pixelphone.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Pixel phone</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="map.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Google Maps</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="cloud.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Google Cloud</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="ads.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Google Ads</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="photos.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Google Photos</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="Google For families.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Google For Families</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="G-fi-wireless.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Google Fi Wireless</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="nest.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Google Nest</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="googleLogo.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Google Pay</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="store.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Google Store</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="drive.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Google Drive</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="shopping.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Google Shopping</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="cards">
+                            <span>
+                                <img src="accesbility.png" class="cards-img" alt="">
+                            </span>
+                            <h3>Google Accesbility</h3>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <div class="expander-cont">
+        <div class="padd"></div>
+        <button class="expander">
+            <svg class="expand_sign" xmlns="http://www.w3.org/2000/svg" width="24px" aria-hidden="true"
+                viewBox="0 0 24 24">
+                <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"></path>
+            </svg>
+        </button>
+        <div class="padd"></div>
+    </div>
+    <h1 class="text-primary opacity-25 text-center unavail">Content Unavailable</h1>
+    <div class="resources-container">
+        <div class="resources">
+            <div class="r_row">
+                <h6>Your account</h6>
+                <a href="#">Can't access your account?</a>
+                <a href="#">Recent transaction with Google</a>
+                <a href="#">Usefull stuff you can do with Google</a>
+            </div>
+            <div class="r_row">
+                <h6>Help Communities</h6>
+                <p>Find out more about</p>
+                <a href="#">Google's product Experts Programme</a>
+            </div>
+            <div class="r_row">
+                <h6>Status Dashboard</h6>
+                <p>If you're having trouble accessing a Google product, there's a chance that we're currently
+                    experiencing a temporary problem. You can check for outages and downtime on the
+                    <br>
+                    <a href="#">G Suite Status Dashboard
+                    </a>
+                    .
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="foot-container">
+            <div class="foot1">
+                <p>
+                    ©2023 Google
+                </p>
+                <a href="#">
+                    Privacy Policy
+                </a>
+                <a href="#">
+                    Terms of Service
+                </a>
+                <div class="dropdown dropd-custom ms-4 d-flex align-items-center">
+                    <button class="btn dropdown-toggle fs-7 border-0 " type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        English (United Kingdom)
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item active" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="foot2">
+                <div class="colorMode"><svg width="24px" xmlns="http://www.w3.org/2000/svg"
+                        class="dark-mode-toggle-icon" viewBox="0 0 24 24">
+                        <path
+                            d="M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69zM12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6c3.31 0 6 2.69 6 6s-2.69 6-6 6z">
+                        </path>
+                        <path d="M0 0h24v24H0V0z" fill="none"></path>
+                    </svg></div>
+
+                <div class="feedbackC">
+                    <a href="#"><svg width="18" fill="red" xmlns="http://www.w3.org/2000/svg"
+                            class="user-feedback-link__svg-container" viewBox="0 0 24 24">
+                            <path
+                                d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17l-.59.59-.58.58V4h16v12zm-9-4h2v2h-2zm0-6h2v4h-2z">
+                            </path>
+                            <path d="M0 0h24v24H0V0z" fill="none"></path>
+                        </svg> Send feedback About our Help Center </a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="helpC.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav ">
+
+            <div class="navBar-container">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="logo">
+                    <g class="">
+                        <path fill="#4285F4"
+                            d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.48-1.14 2.73-2.4 3.58v3h3.86c2.26-2.09 3.56-5.17 3.56-8.82z" />
+                        <path fill="#34A853"
+                            d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.86-3c-1.08.72-2.45 1.16-4.07 1.16-3.13 0-5.78-2.11-6.73-4.96H1.29v3.09C3.26 21.3 7.31 24 12 24z" />
+                        <path fill="#FBBC05"
+                            d="M5.27 14.29c-.25-.72-.38-1.49-.38-2.29s.14-1.57.38-2.29V6.62H1.29C.47 8.24 0 10.06 0 12s.47 3.76 1.29 5.38l3.98-3.09z" />
+                        <path fill="#EA4335"
+                            d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.62l3.98 3.09c.95-2.85 3.6-4.96 6.73-4.96z" />
+                    </g>
+                </svg>
+                <div class="search" id="search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" focusable="false"
+                        class=" NMm5M">
+                        <path
+                            d="M20.49 19l-5.73-5.73C15.53 12.2 16 10.91 16 9.5A6.5 6.5 0 1 0 9.5 16c1.41 0 2.7-.47 3.77-1.24L19 20.49 20.49 19zM5 9.5C5 7.01 7.01 5 9.5 5S14 7.01 14 9.5 11.99 14 9.5 14 5 11.99 5 9.5z">
+                        </path>
+                    </svg>
+                    <input type="text" name="" id="" placeholder="Search Google Store">
+                    <svg onclick="toggle2()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" focusable="false"
+                        width="24" class=" NMm5M">
+                        <path
+                            d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z">
+                        </path>
+                    </svg>
+
+                </div>
+                <div class="navRytContent">
+                    <button class="t-btn" id="toggleBtn" onclick="toggle()">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" focusable="false" fill="gray"
+                            class="navSvg">
+                            <path
+                                d="M20.49 19l-5.73-5.73C15.53 12.2 16 10.91 16 9.5A6.5 6.5 0 1 0 9.5 16c1.41 0 2.7-.47 3.77-1.24L19 20.49 20.49 19zM5 9.5C5 7.01 7.01 5 9.5 5S14 7.01 14 9.5 11.99 14 9.5 14 5 11.99 5 9.5z">
+                            </path>
+                        </svg>
+                    </button>
+                    <a href="../Google Help Center/helpCenter.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gray" class="navSvg">
+                            <g class="">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z">
+                                </path>
+                            </g>
+                        </svg>
+                    </a>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gray" class="navSvg">
+                        <g class="">
+                            <path
+                                d="M7,18c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S8.1,18,7,18z M1,4h2l3.6,7.6L5.2,14C5.1,14.3,5,14.7,5,15c0,1.1,0.9,2,2,2h12 v-2H7.4c-0.1,0-0.2-0.1-0.2-0.2c0,0,0-0.1,0-0.1L8.1,13h7.4c0.8,0,1.4-0.4,1.7-1l3.6-6.5C21,5.3,21,5.2,21,5c0-0.6-0.4-1-1-1H5.2 L4.8,3.1C4.5,2.5,3.8,2,3,2H1V4z M17,18c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2S18.1,18,17,18z">
+                            </path>
+                        </g>
+                    </svg>
+                    <div class="user">V</div>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+
+    <div class="content">
+        <h1 class="heading">Welcome to the
+            <br>
+            <span class="g1">
+                Google Store
+            </span>
+        </h1>
+    </div>
+    <div class="contentContainer">
+        <div class="filterBox-container">
+            <div class="filterBox">
+                <span class="fb-name">Product Type</span>
+
+                <div class="chooseBox">
+                    <input type="checkbox" class="checkbox" name="product-type">
+                    <label for="connected-home" class="checked">Connected home</label>
+                </div>
+
+                <div class="chooseBox">
+                    <input type="checkbox" class="checkbox" name="product-type">
+                    <label for="phones" class="checked">Phones</label>
+                </div>
+
+                <div class="chooseBox">
+                    <input type="checkbox" class="checkbox" name="product-type">
+                    <label for="accessories" class="checked">Accessories</label>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="card-cont">
+                <div class="card">
+                    <img class="c-img" src="pixel.png" alt="">
+                </div>
+                <p>Pixel 7a</p>
+            </div>
+            <div class="card-cont">
+                <div class="card">
+                    <img class="c-img" src="pixel2.png" alt="">
+                </div>
+                <p>Pixel 7 Pro</p>
+            </div>
+
+            <div class="card-cont">
+
+                <div class="card">
+                    <img class="c-img" src="pixel3.png" alt="">
+                </div>
+                <p>Pixel 7</p>
+            </div>
+            <div class="card-cont">
+                <div class="card">
+                    <img class="c-img" src="pixel4.png" alt="">
+                </div>
+                <p>Pixel 6a</p>
+            </div>
+            <div class="card-cont">
+                <div class="card">
+                    <img class="c-img" src="unnamed.png" alt="">
+                </div>
+                <p>Nest Aware</p>
+            </div>
+            <div class="card-cont">
+                <div class="card">
+                    <img class="c-img" src="unnamed (1).png" alt="">
+                </div>
+                <p>
+                    Nest Cam (outdoor or indoor, battery)
+                </p>
+            </div>
+            <div class="card-cont">
+
+                <div class="card">
+                    <img class="c-img" src="unnamed (2).png" alt="">
+                </div>
+                <p>Nest Mini</p>
+            </div>
+            <div class="card-cont">
+
+                <div class="card">
+                    <img class="c-img" src="unnamed (3).png" alt="">
+                </div>
+                <p>Nest Audio</p>
+            </div>
+            <div class="card-cont">
+
+                <div class="card">
+                    <img class="c-img" src="case.png" alt="">
+                </div>
+                <p>Pixel 7a Case</p>
+            </div>
+            <div class="card-cont">
+
+                <div class="card">
+                    <img class="c-img" src="charger.png" alt="">
+                </div>
+                <p>Nest Cam Charge Cable</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="links">
+
+        <div class="col1">
+            <a href="#">
+                Country availability
+            </a>
+            <a href="#">
+                Pixel walk-in centres
+            </a>
+            <a href="#">
+                Disability support
+            </a>
+        </div>
+
+        <div class="col2">
+
+            <a href="#">
+                Help Centre
+            </a>
+            <a href="#">
+                Contact us
+            </a>
+            <a href="#">
+                Device recycling
+            </a>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="socialLinks">
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24" fill="#3c4043"
+                        class="">
+                        <g class="">
+                            <path
+                                d="M40.9331436,11.1940288 C42.810084,10.0689342 44.2513785,8.28745345 44.9301304,6.16481389 C43.1737706,7.20644208 41.2282743,7.96298797 39.1576594,8.37075777 C37.4993523,6.6040254 35.1368481,5.5 32.5223241,5.5 C27.501861,5.5 23.4316182,9.57008073 23.4316182,14.5902197 C23.4316182,15.3026824 23.5121673,15.9965069 23.6671068,16.661807 C16.1120205,16.2827237 9.4138018,12.6636857 4.93027879,7.16397957 C4.1478016,8.50657299 3.69951412,10.0681239 3.69951412,11.7340483 C3.69951412,14.8877815 5.30449997,17.6702107 7.74366355,19.3003175 C6.25342374,19.253155 4.85183659,18.8442507 3.62609611,18.1633918 C3.62544783,18.2013163 3.62544783,18.2394029 3.62544783,18.2776516 C3.62544783,22.6820841 6.75892216,26.3562262 10.9174935,27.1912143 C10.1546268,27.3989889 9.35156666,27.5100073 8.52241311,27.5100073 C7.93668971,27.5100073 7.36717338,27.4531205 6.81224341,27.3469642 C7.96894178,30.958547 11.3260736,33.586685 15.3039361,33.660103 C12.1928276,36.0981321 8.27314842,37.5514198 4.01425536,37.5514198 C3.28056144,37.5514198 2.5569159,37.5084711 1.8457498,37.4245184 C5.86866797,40.0037111 10.6469975,41.5085373 15.780586,41.5085373 C32.5010928,41.5085373 41.6444717,27.6568433 41.6444717,15.6443274 C41.6444717,15.2501715 41.6357199,14.8581225 41.6182163,14.4683426 C43.3941867,13.1866877 44.9354788,11.5855916 46.1542502,9.76262068 C44.5239813,10.4856179 42.7719974,10.974261 40.9331436,11.1940288 Z">
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24" fill="#3c4043"
+                        class="">
+                        <g class="">
+                            <path
+                                d="M23.9,7.1c5.5,0,6.1,0,8.3,0.1c2,0.1,3.1,0.4,3.8,0.7c0.9,0.3,1.7,0.9,2.4,1.5c0.7,0.7,1.2,1.5,1.5,2.4 c0.3,0.7,0.6,1.8,0.7,3.8c0.1,2.2,0.1,2.8,0.1,8.3s0,6.1-0.1,8.3c-0.1,2-0.4,3.1-0.7,3.8c-0.7,1.8-2.1,3.2-3.9,3.9 c-0.7,0.3-1.8,0.6-3.8,0.7c-2.2,0.1-2.8,0.1-8.3,0.1s-6.1,0-8.3-0.1c-2-0.1-3.1-0.4-3.8-0.7c-0.9-0.3-1.7-0.9-2.4-1.5 c-0.7-0.7-1.2-1.5-1.5-2.4c-0.3-0.7-0.6-1.8-0.7-3.8c-0.1-2.2-0.1-2.8-0.1-8.3s0-6.1,0.1-8.3c0.1-2,0.4-3.1,0.7-3.8 c0.3-0.9,0.9-1.7,1.5-2.4c0.7-0.7,1.5-1.2,2.4-1.5c0.7-0.3,1.8-0.6,3.8-0.7C17.8,7.1,18.5,7.1,23.9,7.1 M23.9,3.4 c-5.6,0-6.3,0-8.5,0.1c-2.2,0.1-3.7,0.4-5,1C9.1,5,7.9,5.8,6.9,6.8c-1,1-1.9,2.3-2.4,3.6c-0.5,1.3-0.9,2.8-1,5 c-0.1,2.2-0.1,2.9-0.1,8.5s0,6.3,0.1,8.5c0.1,2.2,0.4,3.7,1,5C5,38.7,5.8,40,6.9,41c1,1,2.3,1.9,3.6,2.4c1.3,0.5,2.8,0.9,5,1 c2.2,0.1,2.9,0.1,8.5,0.1s6.3,0,8.5-0.1c2.2-0.1,3.7-0.4,5-1c2.8-1.1,4.9-3.2,6-6c0.5-1.3,0.9-2.8,1-5c0.1-2.2,0.1-2.9,0.1-8.5 s0-6.3-0.1-8.5c-0.1-2.2-0.4-3.7-1-5c-0.5-1.4-1.3-2.6-2.4-3.6c-1-1-2.3-1.9-3.6-2.4c-1.3-0.5-2.8-0.9-5-1 C30.2,3.4,29.5,3.4,23.9,3.4L23.9,3.4L23.9,3.4z">
+                            </path>
+                            <path
+                                d="M23.9,13.4c-5.8,0-10.5,4.7-10.5,10.5s4.7,10.5,10.5,10.5s10.5-4.7,10.5-10.5l0,0C34.5,18.1,29.8,13.4,23.9,13.4z M23.9,30.8c-3.8,0-6.8-3.1-6.8-6.8c0-3.8,3.1-6.8,6.8-6.8c3.8,0,6.8,3.1,6.8,6.8C30.8,27.7,27.7,30.8,23.9,30.8z">
+                            </path>
+                            <circle cx="34.9" cy="13" r="2.5"></circle>
+                        </g>
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18" width="24" fill="#3c4043"
+                        class="">
+                        <g class="">
+                            <path
+                                d="M15.7,1.5H2.3c-0.5,0-0.8,0.4-0.8,0.8v13.3c0,0.5,0.4,0.8,0.8,0.8h7.2v-5.8h-2V8.4h2V6.8c0-1.9,1.2-3,2.9-3 c0.8,0,1.5,0.1,1.7,0.1v2l-1.2,0c-0.9,0-1.1,0.4-1.1,1.1v1.4h2.2l-0.3,2.3h-1.9v5.8h3.8c0.5,0,0.8-0.4,0.8-0.8V2.3 C16.5,1.9,16.1,1.5,15.7,1.5z">
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24" fill="#3c4043"
+                        class="">
+                        <g class="">
+                            <path
+                                d="M47.48 13.21s-.46-3.3-1.9-4.74c-1.82-1.92-3.86-1.92-4.8-2.04C34.08 5.94 24 6 24 6s-10.04-.06-16.74.42c-.92.12-2.96.12-4.78 2.04C1.04 9.9.56 13.2.56 13.2S.08 17.09 0 20.96v4.05c.08 3.88.56 7.75.56 7.75s.48 3.3 1.92 4.76c1.82 1.9 4.2 1.84 5.28 2.04 3.76.36 15.82.44 16.24.44 0 0 10.1.02 16.8-.46.92-.12 2.96-.12 4.78-2.04 1.44-1.44 1.92-4.74 1.92-4.74s.48-3.88.5-7.75v-4.05c-.04-3.87-.52-7.75-.52-7.75zM19.14 30V15.98L32 23.26 19.14 30z">
+                            </path>
+                            <path d="M0 0h47.99v48H0z" fill="none"></path>
+                        </g>
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" fill="#3c4043"
+                        class="">
+                        <g class="">
+                            <path
+                                d="M18.12 6.01a4.815 4.815 0 01-2.1-3.14c-.05-.28-.08-.57-.08-.87H12.5v13.78a2.896 2.896 0 01-2.89 2.78 2.89 2.89 0 01-2.89-2.89c0-1.59 1.3-2.89 2.89-2.89.3 0 .58.05.85.13V9.4c-.28-.04-.56-.06-.85-.06-3.49 0-6.33 2.84-6.33 6.33 0 2.14 1.07 4.04 2.7 5.18C7.01 21.57 8.26 22 9.61 22c3.49 0 6.33-2.84 6.33-6.33V8.68c1.35.97 3 1.54 4.78 1.54V6.78c-.96 0-1.85-.29-2.6-.77z">
+                            </path>
+                        </g>
+                    </svg></a>
+            </div>
+            <div class="privacyTerms">
+                <a href="#" class="regions">
+                    <img class="indLogo" src="indFlag.png" alt="indflg">
+                    <span>India</span>
+                </a>
+                <a href="#">Privacy</a>
+                <a href="#">Google Nest Commitment to Privacy</a>
+                <a href="#">Sales Terms</a>
+                <a href="#">Terms of service</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
